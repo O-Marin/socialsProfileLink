@@ -19,7 +19,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-
+Webpage or Segment for Social Links. The proyect was divided in two sections, one containing an image, owner, city of residence and a brief description  of the profile,  and a second section containing the links.
 ### The challenge
 
 Users should be able to:
@@ -45,6 +45,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+first always read the documentation and see the design model.
+After placing down the html, I started assigning the colors. I then realized I might want to use this in other places, so I had to rethink the html structure. up to this point I was using tag selectors. for the styles, (Add ids and classes selectors ) 
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -52,11 +55,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
@@ -78,9 +78,7 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
