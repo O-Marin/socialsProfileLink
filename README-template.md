@@ -46,8 +46,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## My process
 
 first always read the documentation and see the design model.
-After placing down the html, I started assigning the colors. I then realized I might want to use this in other places, so I had to rethink the html structure. up to this point I was using tag selectors. for the styles, (Add ids and classes selectors ) 
-
+After placing down the html, I started assigning the colors. 
 ### Built with
 
 - Semantic HTML5 markup
