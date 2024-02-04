@@ -51,10 +51,14 @@ The designs were created to the following widths:
 body{
     font-family: 'Inter', sans-serif;
     background-color: var(--off-black);
+    padding: 2.5em 1em;
 }
 
 main{
     background-color: var(--dark-grey);
+    padding:1.5em;
+    border-radius: 10px;
+    
 }
 
 header{
@@ -63,11 +67,16 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1em;
 }
 
 button{
     background-color: var(--grey);
     color:var(--white);
+    border:none;
+    border-radius:10px;
+    font-weight: var(--semi-bold);
+    padding:1em;
 }
 
 button:hover{
@@ -77,11 +86,25 @@ button:hover{
 
 h2{
     color:var(--white);
+    font-weight: var(--semi-bold);
+    
+}
+
+h4{
+    font-weight: var(--semi-bold);
+    font-size: small;
+}
+
+figure{
+    text-align: center;
 }
 
 img{
     border-radius: 50%;
+    width: 50%;
 }
+
+/* Class Selectors */
 
 .description{
     color: var(--white);
@@ -96,8 +119,21 @@ img{
 .links{
     display: flex;
     flex-direction: column;
+    gap: 1em;
+    
 }
 
+.hero{
+    gap:1em;
+}
+.hero p{
+    font-size: 14px;
+}
+
+.identification{
+    margin:1em 0;
+    text-align: center;
+}
 
 @media(max-width:414px){
     .main{
@@ -106,5 +142,5 @@ img{
 
 
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; color: var(--white); }
+.attribution a { color: hsl(0, 13%, 66%); }
