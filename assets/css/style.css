@@ -51,7 +51,9 @@ The designs were created to the following widths:
 body{
     font-family: 'Inter', sans-serif;
     background-color: var(--off-black);
-    padding: 2.5em 1em;
+    padding: 4.5em 1em;
+    display: flexbox;
+    
 }
 
 main{
@@ -142,5 +144,11 @@ img{
 
 
 }
-.attribution { font-size: 11px; text-align: center; color: var(--white); }
-.attribution a { color: hsl(0, 13%, 66%); }
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: var(--white);
+    margin-top: 4em;
+ }
+.attribution a { 
+    color: hsl(0, 13%, 66%); 
+}
