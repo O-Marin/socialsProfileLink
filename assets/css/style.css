@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-*{margin:0;}
+
+* {
+    margin: 0;
+}
+
 /*
 # Front-end Style Guide
 
@@ -36,34 +40,33 @@ The designs were created to the following widths:
 
 */
 /* blobal custom properties*/
-:root{
-    --grey : hsl(0, 0%, 20%);
+:root {
+    --grey: hsl(0, 0%, 20%);
     --dark-grey: hsl(0, 0%, 12%);
     --off-black: hsl(0, 0%, 8%);
     --white: hsl(0, 0%, 100%);
     --Green: hsl(75, 94%, 57%);
-    --bold:700;
-    --semi-bold:600;
-    --regular:400;
+    --bold: 700;
+    --semi-bold: 600;
+    --regular: 400;
 }
 
 /* shared properties */
-body{
+body {
     font-family: 'Inter', sans-serif;
     background-color: var(--off-black);
     padding: 4.5em 1em;
-    display: flexbox;
-    
+
 }
 
-main{
+main {
     background-color: var(--dark-grey);
-    padding:1.5em;
+    padding: 1.5em;
     border-radius: 10px;
-    
+
 }
 
-header{
+header {
     color: var(--Green);
     display: flex;
     flex-direction: column;
@@ -72,83 +75,101 @@ header{
     margin-bottom: 1em;
 }
 
-button{
+button {
     background-color: var(--grey);
-    color:var(--white);
-    border:none;
-    border-radius:10px;
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
     font-weight: var(--semi-bold);
-    padding:1em;
+    padding: 1em;
 }
 
-button:hover{
+button:hover {
     background-color: var(--Green);
     color: var(--dark-grey);
 }
 
-h2{
-    color:var(--white);
+h2 {
+    color: var(--white);
     font-weight: var(--semi-bold);
-    
+
 }
 
-h4{
+h4 {
     font-weight: var(--semi-bold);
     font-size: small;
 }
 
-figure{
+figure {
     text-align: center;
 }
 
-img{
+img {
     border-radius: 50%;
     width: 50%;
 }
 
 /* Class Selectors */
 
-.description{
+.description {
     color: var(--white);
 }
 
-.main, .links{
+.main,
+.links {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.links{
+.links {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    
+
 }
 
-.hero{
-    gap:1em;
+.hero {
+    gap: 1em;
 }
-.hero p{
+
+.hero p {
     font-size: 14px;
 }
 
-.identification{
-    margin:1em 0;
+.identification {
+    margin: 1em 0;
     text-align: center;
 }
 
-@media(max-width:414px){
-    .main{
-        margin : 3em 1em;
+@media(max-width:414px) {
+    .main {
+        margin: 3em 1em;
     }
 
 
 }
-.attribution { 
-    font-size: 11px; text-align: center; 
+
+@media(min-width:415px) {
+    body{
+        display: flex;
+        justify-content: center;
+        padding-top:9em;
+        padding-bottom:8em;
+    }
+    .main {
+        width: 21em;
+        
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
     color: var(--white);
     margin-top: 4em;
- }
-.attribution a { 
-    color: hsl(0, 13%, 66%); 
+}
+
+.attribution a {
+    color: hsl(0, 13%, 66%);
 }
